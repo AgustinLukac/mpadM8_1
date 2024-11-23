@@ -12,6 +12,14 @@ if st.button("Mostrar mensaje"):
 
     st.title("Van a hablar el recontra puto")
     # Mensaje inicial antes de la pausa
+    # Ruta del archivo de audio
+    audio_file_path = "audio/1.aac"
+
+    # Abrir el archivo de audio y reproducirlo
+    with open(audio_file_path, "rb") as audio_file:
+        audio_bytes = audio_file.read()
+
+    st.audio(audio_bytes, format="audio/aac")
     st.write("Preparando el video, espera un momento...")
 
     # Pausa de 3 segundos
