@@ -6,4 +6,4 @@ st.title("Hola desde strealit cloud")
 #Boton para mostrar el mensaje
 
 if st.button("Mostrar mensaje"):
-    st.write("Hola mundo")
+    st.write("Novia te extraño")
